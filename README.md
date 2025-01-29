@@ -4,13 +4,13 @@ USING THE FILE “PRODUCTMIX_ASSIGNMENT.XLSX”, COMPLETE THE FOLLOWING:
   and stays within the labor hour availability and maximum sales constraints. PC Tech now has eight available 
   models, not just two, and there are now two lines for testing. 
 
-    a. The first line tends to test faster, but its labor costs are slightly higher, and each line has a certain 
-number of hours available for testing. 
-    b. PC Tech must decide not only how many of each model to produce, but also how many of each 
-model to test on each line. 
-    c. The table below lists the variables and constraints for this model.  
-Type & Description
+  a. The first line tends to test faster, but its labor costs are slightly higher, and each line has a certain 
+  number of hours available for testing. 
+  b. PC Tech must decide not only how many of each model to produce, but also how many of each 
+  model to test on each line. 
+  c. The table below lists the variables and constraints for this model.  
 
+--- Type & Description ---
 Decision Variables (changing cells) = Number of computers of each model to test on each of the lines (line 1, line 2) 
 Objective Cell = Total Net Profit  
 Constraints (11 total for Solver) = Computers produced cannot equal or exceed the maximum sales for each model. Labor Hours Used cannot exceed the Labor Hours Available. 
