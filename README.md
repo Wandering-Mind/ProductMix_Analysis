@@ -27,8 +27,7 @@ given information. The Unit Margin is the Selling Price – Labor and Assembly C
 2. Purple Cells (row 21): Calculate the total number of computers produced by taking the sum of the 
 number tested on line 1 and number tested on line 2 for each of the cells in row 21.  
 
-3. Red Cells: As a note for you before clicking Solver, place the comparison operator for each (<=, >=, <, 
->). This should reflect that the Total computers produced for each of the 8 models cannot equal or 
+3. Red Cells: As a note for you before clicking Solver, place the comparison operator for each (<=, >=, <, >). This should reflect that the Total computers produced for each of the 8 models cannot equal or 
 exceed the amount provided in Row 23 for Maximum Sales. This will be a constraint that you build into 
 Solver. Do the same for the labor constraint (red cells). 
 
